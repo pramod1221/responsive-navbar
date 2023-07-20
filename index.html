@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta property="og:title" content="Title" />
+  <meta property="og:description" content="Description" />
+  <meta property="og:image" content="Image absolute URL" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="Website url" />
+  <title>Responsive navbar - By Pramod Nagaraj</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+  <header class="header max--width">
+    <nav class="mainNavigation" role="navigation" aria-label="Main menu">
+      <div class="logoWrapper">
+        <a href="#">
+          Logo
+        </a>
+      </div>
+      <div class="menuWrapper" id="menuWrapper" aria-expanded="false">
+        <ul class="menuListWrapper">
+          <li class="menuListItem"><a href="#">Nav item 1</a></li>
+          <li class="menuListItem"><a href="#">Nav item 2</a></li>
+          <li class="menuListItem"><a href="#">Nav item 3</a></li>
+        </ul>
+      </div>
+    </nav>
+    <button class="mainNavHamburger" aria-controls="menuWrapper">
+      <span class="toggleBars"></span>
+      <span class="toggleBars"></span>
+      <span class="toggleBars"></span>
+    </button>
+  </header>
+</body>
+
+</html>

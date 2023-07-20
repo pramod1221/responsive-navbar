@@ -1,0 +1,31 @@
+/* Some global settings */
+:root {
+  --white: white;
+  --black: black;
+  --blue: blue;
+  --lightgray: lightgray;
+  --font-family: "Helvetica", sans-serif;
+  --base-size: 16px;
+  --max-width: 1280px;
+}
+
+::selection {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+body {
+  background-color: var(--lightgray);
+  color: var(--black);
+  font-family: var(--font-family);
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Some utility */
+.max--width {
+  max-width: var(--max-width);
+  margin-inline: auto;
+}
